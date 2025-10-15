@@ -1,4 +1,13 @@
+let x = 10;
+let y = 2;
 
-function sumar(num1, num2){
+
+function sumar(x, y){
     return x+y;
 }
+
+function restar(x, y){
+    return x-y;
+}
+console.log(sumar(x, y));
+console.log(restar(x, y));
